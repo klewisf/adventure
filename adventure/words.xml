@@ -1,0 +1,243 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Words>
+  <Word
+      word="look"
+      type="command" />
+	<Word 
+			word="north"
+      type="direction" />
+	<Word
+			word="south"
+      type="direction" />
+	<Word
+			word="east"
+      type="direction" />
+	<Word
+			word="west"
+      type="direction" />
+  <Word
+			word="in"
+      type="direction" />
+  <Word
+      word="out"
+      type="direction" />
+  <Word
+      word="up"
+      type="direction" />
+  <Word
+      word="down"
+      type="direction" />
+  <Word
+      word="northwest"
+      type="direction" />
+  <Word
+      word="southeast"
+      type="direction" />
+  <Word
+      word="northeast"
+      type="direction" />
+  <Word
+      word="southwest"
+      type="direction" />
+  <Word
+			word="rock"
+      type="object" />
+  <Word
+			word="quit"
+      type="command" />
+  <Word
+      word="take"
+      type="command" />
+  <Word
+      word="drop"
+      type="command" />
+  <Word
+      word="i"
+      type="command" />
+  <Word
+      word="examine"
+      type="command" />
+  <Word
+      word="feather"
+      type="object" />
+  <Word
+      word="stick"
+      type="object" />
+  <Word
+      word="stone"
+      type="object" />
+  <Word
+      word="key"
+      type="object" />
+  <Word
+      word="door"
+      type="object" />
+  <Word
+      word="unlock"
+      type="command" />
+  <Word
+      word="with"
+      type="general" />
+  <Word
+      word="lock"
+      type="command" />
+  <Word
+      word="brass"
+      type="adjective" />
+  <Word
+      word="red"
+      type="adjective" />
+  <Word
+      word="plinth"
+      type="object" />
+  <Word
+      word="put"
+      type="command" />
+  <Word
+      word="on"
+      type="general" />
+  <Word
+      word="onto"
+      type="general" />
+  <Word
+      word="sculpture"
+      type="object" />
+  <Word
+      word="next"
+      type="general" />
+  <Word
+      word="to"
+      type="general" />
+  <Word
+      word="rope"
+      type="object" />
+  <Word
+      word="give"
+      type="command" />
+  <Word
+      word="owl"
+      type="object" />
+  <Word
+      word="branch"
+      type="object" />
+  <Word
+      word="tie"
+      type="command" />
+  <Word
+      word="swing"
+      type="command" />
+  <Word
+      word="across"
+      type="general" />
+  <Word
+      word="river"
+      type="object" />
+  <Word
+      word="over"
+      type="general" />
+  <Word
+      word="box"
+      type="object" />
+  <Word
+      word="coin"
+      type="object" />
+  <Word
+      word="fountain"
+      type="object" />
+  <Word
+      word="bracelet"
+      type="object" />
+  <Word
+      word="throw"
+      type="command" />
+  <Word
+      word="into"
+      type="general" />
+  <Word
+      word="rosebush"
+      type="object" />
+  <Word
+      word="ring"
+      type="object" />
+  <Word
+      word="gates"
+      type="object" />
+  <Word
+      word="pond"
+      type="object" />
+  <Word
+      word="basket"
+      type="object" />
+  <Word
+      word="ruby"
+      type="object" />
+  <Word
+      word="pull"
+      type="command" />
+  <Word
+      word="say"
+      type="command" />
+  <Word
+      word="open"
+      type="general" />
+  <Word
+      word="please"
+      type="general" />
+  <Word
+      word="horseshoe"
+      type="object" />
+  <Word
+      word="hammer"
+      type="object" />
+  <Word
+      word="nails"
+      type="object" />
+  <Word
+      word="nail"
+      type="command" />
+  <Word
+      word="fix"
+      type="command" />
+  <Word
+      word="painting"
+      type="object" />
+  <Word
+      word="shake"
+      type="command" />
+  <Word
+      word="at"
+      type="general" />
+  <Word
+      word="paper"
+      type="object" />
+  <Word
+      word="sing"
+      type="command" />
+  <Word
+      word="crystal"
+      type="object" />
+  <Word
+      word="bell"
+      type="object" />
+  <Word
+      word="shelves"
+      type="object" />
+  <Word
+      word="ball"
+      type="object" />
+  <Word
+      word="trophy"
+      type="object" />
+  <Word
+      word="figurine"
+      type="object" />
+  <Word
+      word="gargoyle"
+      type="object" />
+  <Word
+      word="wardrobe"
+      type="object" />
+  <Word
+      word="watch"
+      type="object" />
+</Words>

@@ -1,0 +1,270 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Objects>
+  <Object
+      code="STICK"
+      word="stick"
+      title="A stick"
+      description="An ordinary-looking stick, about 30cm long" 
+      where="INSIDECOTTAGE" />
+  <Object
+      code="STONE"
+      word="stone"
+      title="A stone"
+      description="A small brown stone, big enough to fit in your palm. The words 'Take Me Home' are carved into it" 
+      where="FORESTPATH" />
+  <Object
+      code="REDKEY"
+      word="key"
+      adjective="red"
+      title="A red key"
+      description="A small red key"
+      where="INSIDECOTTAGE" />
+  <Object
+      code="FEATHER"
+      word="feather"
+      title="A feather"
+      description="A long white feather, in good condition"
+      where="STOREROOM" />
+  <Object
+      code="KEY"
+      word="key"
+      adjective="brass"
+      title="A brass key"
+      description="A large brass key"
+      where="HELD" />
+  <Object
+      code="DOOR"
+      word="door"
+      title="A door"
+      description="An ordinary looking wooden door. It is locked"
+      where="INSIDECOTTAGE"
+      fixture="TRUE"
+      state="LOCKED" />
+  <Object
+      code="PLINTH"
+      word="plinth"
+      title="A plinth"
+      description="A stone plinth, about two feet high. Written on it are the words 'Bring me my missing stone'"
+      where="ROCK"
+      fixture="TRUE" />
+  <Object
+      code="SCULPTURE"
+      word="sculpture"
+      title="A sculpture"
+      description="A carved stone sculpture of an owl, about 5 feet high"
+      where="CLEARING"
+      fixture="TRUE" />
+  <Object
+      code="ROPE"
+      word="rope"
+      title="Some rope"
+      description="A piece of rope about 10 feet lomg"
+      where="NOWHERE" />
+  <Object
+      code="BRANCH"
+      word="branch"
+      title="a branch"
+      description="A branch reaches out from a tree across the river to the west"
+      fixture="TRUE"
+      where="FORESTPATH"
+      state="NONE" />
+  <Object
+      code="RIVER"
+      word="river"
+      title="a river"
+      description="A small river flows to the west from north to south, too deep to wade across."
+      fixture="TRUE"
+      where="FORESTPATH" />
+  <Object
+      code="BOX"
+      word="box"
+      title="A box"
+      description="A small wooden box. It is locked"
+      fixture="TRUE"
+      where="NARROWPATH"
+      state="LOCKED" />
+  <Object
+      code="COIN"
+      word="coin"
+      title="A coin"
+      description="A small copper coin"
+      where="NOWHERE" />
+  <Object
+      code="FOUNTAIN"
+      word="fountain"
+      title="A fountain"
+      description="This stone fountain has a water filled basin with a pillar behind it."
+      where="FOUNTAIN"
+      fixture="TRUE" />
+  <Object
+      code="BRACELET"
+      word="bracelet"
+      title="A bracelet"
+      description="This is a silver bracelet, decorated with runes and other symbols."
+      where="NOWHERE" />
+  <Object
+      code="ROSEBUSH"
+      word="rosebush"
+      title="A rosebush"
+      description="This rosebush has half a dozen stems, with many red roses growing on them"
+      fixture="TRUE"
+      state="UNEXAMINED"
+      where="SUNKENGARDEN" />
+  <Object
+      code="RING"
+      word="ring"
+      title="A ring"
+      description="This ring is a plain band of gold"
+      where="NOWHERE" />
+  <Object
+      code="POND"
+      word="pond"
+      title="A pond"
+      description="This roughly circular pond is around 10 feet across."
+      where="POND"
+      fixture="TRUE" />
+  <Object
+      code="GATES"
+      word="gates"
+      title="A set of gates"
+      description="The two iron gates are closed and locked together, blocking the way. A sign attached reads 'Polite people may pass'"
+      where="GATE"
+      fixture="TRUE"
+      state="CLOSED" />
+  <Object
+      code="PONDROPE"
+      word="rope"
+      title="Some rope"
+      description="One end of the rope is fixed to a rock, and the other end is in the pond"
+      where="POND"
+      fixture="TRUE" 
+      state="UNPULLED" />
+  <Object
+      code="BASKET"
+      word="basket"
+      title="A basket"
+      description="This is a ordinary looking basket, made out of wicker. It is attached to a length of rope."
+      where="NOWHERE"
+      fixture="TRUE"
+      state="UNEXAMINED"/>
+  <Object
+      code="RUBY"
+      word="ruby"
+      title="A ruby"
+      description="A medium sized ruby, expertly cut"
+      where="NOWHERE" />
+  <Object
+      code="HORSESHOE"
+      word="horseshoe"
+      title="A horseshoe"
+      description="An iron horseshoe, with holes for the nails"
+      where="HUT" />
+  <Object
+      code="HAMMER"
+      word="hammer"
+      title="A hammer"
+      description="A metal hammer with a smooth wooden handle"
+      where="SHED" />
+  <Object
+      code="NAILS"
+      word="nails"
+      title="A bag of nails"
+      description="A small bag containing a number of sturdy metal nails"
+      where="SHED" />
+  <Object
+      code="KITCHENDOOR"
+      word="door"
+      title="A door"
+      description="This is the door leading to the kitchen. A sign reads 'You can get in if you are lucky'"
+      where="KITCHENGARDEN"
+      fixture="TRUE"
+      state="LOCKED" />
+  <Object
+      code="PAINTING"
+      word="painting"
+      title="a painting"
+      description="A well executed painting of a rosebush. Next to it, a sign reads 'Here is a rosebush with more flowers than you can shake a stick at'"
+      where="GALLERY"
+      fixture="TRUE"
+      state="CLOSED" />
+  <Object
+      code="PAPER"
+      word="paper"
+      title="A piece of paper"
+      description="A small piece of paper. On it is written, 'Crystals enjoy the sound of music'"
+      where="ATTICROOM" />
+  <Object
+      code="BELL"
+      word="bell"
+      title="A bell"
+      description="This small bell is made of gold, and appears valuable."
+      where="ATTICROOM" />
+  <Object
+      code="CRYSTAL"
+      word="crystal"
+      title="A crystal"
+      description="The crystal is a transparent blue, which sparkles"
+      where="NOWHERE" />
+  <Object
+      code="SHELVES"
+      word="shelves"
+      title="A set of shelves"
+      description="This set of shelves contains cleaning and other household items"
+      where="PANTRY"
+      fixture="TRUE"
+      state="UNEXAMINED" />
+  <Object
+      code="BALL"
+      word="ball"
+      title="A ball"
+      description="This small white ball is one of a kind used in snooker"
+      where="NOWHERE" />
+  <Object
+      code="SNOOKERPAINTING"
+      word="painting"
+      title="A painting"
+      description="This painting shows a snooker table midway through a game"
+      where="LIBRARY"
+      fixture="TRUE" />
+  <Object
+      code="LIBRARYSHELVES"
+      word="shelves"
+      title="A set of shelves"
+      description="This set of shelves hold items such as trophies and other prizes"
+      where="NOWHERE"
+      fixture="TRUE"
+      state="UNEXAMINED" />
+  <Object
+      code="TROPHY"
+      word="trophy"
+      title="A trophy"
+      description="This small gold cup is engraved 'The Winner'. It looks quite valuable"
+      where="NOWHERE" />
+  <Object
+      code="FIGURINE"
+      word="figurine"
+      title="A figurine"
+      description="This small piece of carved jade is in the shape of a dragon"
+      where="NOWHERE" />
+  <Object
+      code="GARGOYLE"
+      word="gargoyle"
+      title="A statue of a gargoyle"
+      description="This carved stone is in the shape of a winged demon, sat by the side of the path"
+      where="WAYHOME"
+      fixture="TRUE" />
+  <Object
+      code="WARDROBE"
+      word="wardrobe"
+      title="A wardrobe"
+      description="This large wardrobe is made of fine oak, and is about six feet tall"
+      where="GUESTROOM"
+      fixture="TRUE"
+      state="UNEXAMINED" />
+  <Object
+      code="WATCH"
+      word="watch"
+      title="A pocket watch"
+      description="This pocket watch is made of silver and appears quite valuable"
+      where="LORDSROOM" />
+</Objects>

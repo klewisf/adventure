@@ -1,0 +1,397 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Locations>
+  <Location
+    code="OLDCOTTAGE"
+    title="Old Cottage"
+    description="An old thatched cottage in a clearing in the woods." >
+    <Links>
+      <Link command="south" linkto="FORESTPATH" />
+      <Link command="in" linkto="INSIDECOTTAGE" />
+    </Links>
+  </Location>
+  <Location
+    code="FORESTPATH"
+    title="Forest Path"
+    description="This is a small path leading through the woods, next to a river running north to south to the west." >
+    <Links>
+      <Link command="north" linkto="OLDCOTTAGE" />
+      <Link command="south" linkto="MIDPATH" />
+    </Links>
+  </Location>
+  <Location
+    code="INSIDECOTTAGE"
+    title="Inside Cottage"
+    description="Here inside an old cottage is a kitchen with a window and a cooking range along one wall. There is a door on the east wall." >
+    <Links>
+      <Link command="out" linkto="OLDCOTTAGE" />
+      <Link command="east" linkto="STOREROOM" hidden="TRUE"/>
+    </Links>
+  </Location>
+  <Location
+    code="STOREROOM"
+    title="Store Room"
+    description="A square shaped room with shelves along one wall and an area containing bags of coal. There is a door on the west wall" >
+    <Links>
+      <Link command="west" linkto="INSIDECOTTAGE" />
+    </Links>
+  </Location>
+  <Location
+    code="MIDPATH"
+    title="Forest Path"
+    description="This is a small path leading through the woods" >
+    <Links>
+      <Link command="north" linkto="FORESTPATH" />
+      <Link command="south" linkto="CLEARING" />
+      <Link command="southeast" linkto="CLIFF" />
+    </Links>
+  </Location>
+  <Location
+    code="CLEARING"
+    title="Forest Clearing"
+    description="Here is a small clearing in the woods" >
+    <links>
+      <Link command = "north" linkto="MIDPATH" />
+      <Link command = "east" linkto="CLIFF" />
+    </links>
+  </Location>
+  <Location
+    code="CLIFF"
+    title="Cliff"
+    description="Here is a rocky outcrop above the wooded area below" >
+    <Links>
+      <Link command = "west" linkto ="CLEARING" />
+      <Link command ="up" linkto ="ROCK" />
+      <Link command ="northwest" linkto="MIDPATH" />
+    </Links>
+  </Location>
+  <Location
+    code="ROCK"
+    title="Large Rock"
+    description="You are standing on top of a large rock above a wooded area below" >
+    <Links>
+      <Link command ="down" linkto ="CLIFF" />
+    </Links>
+  </Location>
+  <Location
+      code="NARROWPATH"
+      title="Narrow Path"
+      description="You are standing on a narrow path running through the woods, next to a river" >
+    <Links>
+      <Link command="west" linkto ="SUNKENGARDEN" />
+    </Links>
+  </Location>
+  <Location
+      code="SUNKENGARDEN"
+      title="Sunken Garden"
+      description="In the middle of this cirular clearing in the woods is a round sunken garden made from stone, with a rosebush growing in the middle." >
+    <Links>
+      <Link command="east" linkto ="NARROWPATH" />
+      <Link command="south" linkto="FOUNTAIN" />
+      <Link command="west" linkto="TRAIL" />
+    </Links>
+  </Location>
+  <Location
+      code="FOUNTAIN"
+      title="Fountain"
+      description="Here in in woods is a stone fountain, with a tall pillar behind a small basin" >
+    <Links>
+      <Link command="north" linkto="SUNKENGARDEN" />
+    </Links>
+  </Location>
+  <Location
+      code="TRAIL"
+      title="Forest Trail"
+      description="Here a forest trail leads from the east, branching off to the south and northwest. A road leads north" >
+    <Links>
+      <Link command="east" linkto="SUNKENGARDEN" />
+      <Link command="south" linkto="OUTSIDEHUT" />
+      <Link command="northwest" linkto="POND" />
+      <Link command="north" linkto="GATE" />
+    </Links>
+  </Location>
+  <Location
+      code="OUTSIDEHUT"
+      title="Outside Hut"
+      description="You are standing outside a forest hut, a single floor construction made out of rough timber" >
+    <Links>
+      <Link command="north" linkto="TRAIL" />
+      <Link command="in" linkto="HUT" />
+    </Links>
+  </Location>
+  <Location
+      code="HUT"
+      title="Forest Hut"
+      description="You are standing inside a forest hut, with piles of straw and logs around." >
+    <Links>
+      <Link command="out" linkto="OUTSIDEHUT" />
+    </Links>
+  </Location>
+  <Location
+      code="POND"
+      title="Pond"
+      description="A forest trail leads to a pond, filled with brackish water." >
+    <Links>
+      <Link command="southeast" linkto="TRAIL" />
+    </Links>
+  </Location>
+  <Location
+      code="GATE"
+      title="Gate"
+      description="The road from the south lead a large set of gates, blocking the way any further when closed." >
+    <Links>
+      <Link command="south" linkto="TRAIL" />
+      <Link command="north" linkto="DRIVEWAY" hidden="TRUE" />
+    </Links>
+  </Location>
+  <Location
+      code="DRIVEWAY"
+      title="Driveway"
+      description="A wide driveway leads from gates to the south, to a large building ahead to the north" >
+    <Links>
+      <Link command="south" linkto="GATE" />
+      <Link command="north" linkto="HOUSE" />
+    </Links>
+  </Location>
+  <Location
+      code="HOUSE"
+      title="House Main Entrance"
+      description="Here the driveway ends at the bottom of a flight of steps leading up to doors leading into a large house" >
+    <Links>
+      <Link command="south" linkto="DRIVEWAY" />
+      <Link command="west" linkto="WESTHOUSE" />
+      <Link command="east" linkto="EASTHOUSE" />
+    </Links>
+  </Location>
+  <Location
+      code="WESTHOUSE"
+      title="Outside West Wing"
+      description="A path continues to the west along the western side of the great house" >
+    <Links>
+      <Link command="east" linkto="HOUSE" />
+      <Link command="west" linkto="KITCHENGARDEN" />
+    </Links>  
+  </Location>
+  <Location
+      code="KITCHENGARDEN"
+      title="Kitchen Garden"
+      description="Here to the western side of the house is a kitchen garden, with beds of vegetables and herbs, with a entrance to the house kitchen" >
+    <Links>
+      <Link command="east" linkto="WESTHOUSE" />
+      <Link command="west" linkto="GROUNDS" />
+      <Link command="northwest" linkto="SIDEPATH" />
+      <Link command="in" linkto="KITCHEN" hidden="TRUE" />
+    </Links>
+  </Location>
+  <Location
+      code="SIDEPATH"
+      title="Side Path"
+      description="Here a path leads round the house to the northern side" >
+    <Links>
+      <Link command="southeast" linkto="KITCHENGARDEN" />
+      <Link command="northeast" linkto="NORTHGATE" />
+    </Links>
+  </Location>
+  <Location
+      code="NORTHGATE"
+      title="North Gate"
+      description="Here a road leads out of the grounds towards the edge of the woods" >
+    <Links>
+      <Link command="southwest" linkto="SIDEPATH" />
+      <Link command="north" linkto="WAYHOME" />
+    </Links>
+  </Location>
+  <Location
+      code="WAYHOME"
+      title="The Way Home"
+      description="The path now leads to a road leading home." >
+    <Links>
+      <Link command="south" linkto ="NORTHGATE" />
+      <Link command="north" linkto="HOME" />
+    </Links>
+  </Location>
+  <Location
+      code="HOME"
+      title="Home"
+      description="Home" >
+    <Links>
+    </Links>
+  </Location> 
+  <Location
+    code="GROUNDS"
+    title="Grounds"
+    description="Here to the west of the house is a lawned area, with a path leading to an outbuilding" >
+    <Links>
+      <Link command="east" linkto="KITCHENGARDEN" />
+      <Link command="in" linkto="SHED" />
+    </Links>
+  </Location>
+  <Location
+    code="SHED"
+    title="Outbuilding"
+    description="You are standing inside an outbuilding, with shelves and wooden benches" >
+    <Links>
+      <Link command="out" linkto="GROUNDS" />
+    </Links>
+  </Location>
+  <Location
+    code="EASTHOUSE"
+    title="Outside East Wing"
+    description="A path leads to the east along the east wing of the large house" >
+    <Links>
+      <Link command="west" linkto="HOUSE" />
+      <Link command="east" linkto="GROTTO" />
+    </Links>
+  </Location>
+  <Location
+    code="GROTTO"
+    title="Grotto"
+    description="The path finishes here in a hollow with a very small cave, with many crystals." >
+    <Links>
+      <Link command="west" linkto="EASTHOUSE" />
+    </Links>
+  </Location>
+  <Location
+    code="KITCHEN"
+    title="Kitchen"
+    description="This is a well equipped kitchen with basins, pots and pans hangind, cupboards and several large tables" >
+    <Links>
+      <Link command="out" linkto="KITCHENGARDEN" />
+      <Link command="east" linkto="GREATHALL" />
+      <Link command="north" linkto="PANTRY" />
+    </Links>
+  </Location>
+  <Location
+    code="PANTRY"
+    title="Pantry"
+    description="This pantry has shelves lined with boxes and jars of food, along the other supplies." >
+    <Links>
+      <Link command="south" linkto="KITCHEN" />
+    </Links>
+  </Location>
+  <Location
+    code="GREATHALL"
+    title="Great Hall"
+    description="Under a valuted ceiling, this long hall has windows along the south wall, and a horseshoe shaped set of tables with an ornate chair at the eastern end" >
+    <Links>
+      <Link command="west" linkto="KITCHEN" />
+      <Link command="east" linkto="ENTRANCEHALL" />
+    </Links>
+  </Location>
+  <Location
+      code="ENTRANCEHALL"
+      title="Entrance Hall"
+      description="With large doors to the south, and elegant furnishings, this spacious hall leads through doors east and west with a grand staircase leading up" >
+    <Links>
+      <Link command="west" linkto="GREATHALL" />
+      <Link command="up" linkto="LANDING" />
+      <Link command="east" linkto="LONGLOUNGE" />
+    </Links>
+  </Location>
+  <Location
+      code="LANDING"
+      title="Landing"
+      description="With a grand staircase leading down, this hall is furnished with chairs and small tables, with corridors leading east and west" >
+    <Links>
+      <Link command="down" linkto="ENTRANCEHALL" />
+      <Link command="west" linkto="GALLERY" />
+      <Link command="east" linkto="APPARTMENTS" />
+    </Links>
+  </Location>
+  <Location
+      code="APPARTMENTS"
+      title="Corridor"
+      description="This corridor leads to the east, with doors leading north, east and northeast" >
+    <Links>
+      <Link command="west" linkto="LANDING" />
+      <Link command="northeast" linkto="GUESTROOM" />
+      <Link command="east" linkto="BATHROOM" />
+    </Links>
+  </Location>
+  <Location
+      code="LORDSROOM"
+      title="Lord's Room"
+      description="This bedroom contains an ornate four poster bed, with a dressing table and several cupboards and wardrobes" >
+    <Links>
+      <Link command="south" linkto="APPARTMENTS" />
+      <Link command="east" linkto="GUESTROOM" />
+    </Links>
+  </Location>
+  <Location
+      code="GUESTROOM"
+      title="Guest Room"
+      description="This richly furnished room contains a four poster bed with green cloth and a number of cupboards and wardrobes" >
+    <Links>
+      <Link command="southwest" linkto="APPARTMENTS" />
+      <Link command="west" linkto="LORDSROOM" hidden="TRUE" />
+    </Links>
+  </Location>
+  <Location
+      code="BATHROOM"
+      title="Bathroom"
+      description="The bathroom contains a flushing toilet, pedistal sink and a free-standing white enamel bathtub" >
+    <Links>
+      <Link command="west" linkto="APPARTMENTS" />
+    </Links>
+  </Location>
+  <Location
+      code="GALLERY"
+      title="Gallery"
+      description="On discplay in this long gallery are several oil paintings showing portraits and other subjects, with occasional tables and chairs" >
+    <Links>
+      <Link command="east" linkto="LANDING" />
+      <Link command="north" linkto="HIDDENCORRIDOR" hidden="TRUE" />
+    </Links>
+  </Location>
+  <Location
+      code="HIDDENCORRIDOR"
+      title="Hidden Corridor"
+      description="A small corridor lit by a skylight leads to the north" >
+    <Links>
+      <Link command="south" linkto="GALLERY" />
+      <Link command="north" linkto="STAIRS" />
+    </Links>
+  </Location>
+  <Location
+      code="STAIRS"
+      title="Staircase"
+      description="A flight of steps leads up from the corridor. The walls are painted a faded brown colour and bare boards cover the floor." >
+    <Links>
+      <Link command="south" linkto="HIDDENCORRIDOR" />
+      <Link command="up" linkto="ATTICROOM" />
+    </Links>
+  </Location>
+  <Location
+      code="ATTICROOM"
+      title="Attic Room"
+      description="The stairs from below lead to a dusty attic room lit by a small window. There is a set of shelves along on wall, and a couple of boxes." >
+    <Links>
+      <Link command="down" linkto="STAIRS" />
+    </Links>
+  </Location>
+  <Location
+      code="LONGLOUNGE"
+      title="Long Lounge"
+      description="This long room is richly furnished with chairs and sofas, with ornate tables and pictures on the wall." >
+    <Links>
+      <Link command="west" linkto="ENTRANCEHALL" />
+      <Link command="east" linkto="DRAWINGROOM" />
+    </Links>
+  </Location>
+  <Location
+      code="DRAWINGROOM"
+      title="Drawing Room"
+      description="This smaller room has a number of comfortable chairs, with carved side tables" >
+    <Links>
+      <Link command="west" linkto="LONGLOUNGE" />
+      <Link command="north" linkto="LIBRARY" />
+    </Links>
+  </Location>
+  <Location
+      code="LIBRARY"
+      title="Library"
+      description="The library contains many shelves, lined with books, with a desk and a chair." >
+    <Links>
+      <Link command="south" linkto="DRAWINGROOM" />
+    </Links>
+  </Location>
+</Locations>

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Vars>
+  <Alpha>
+    <Var name="CURRENTLOC" value="FORESTPATH" />
+  </Alpha>
+  <Number>
+    <Var name="TEST" value="123" />
+  </Number>
+  <Boolean>
+    <Var name="GAMEOVER" value="false" />
+  </Boolean>
+</Vars>
